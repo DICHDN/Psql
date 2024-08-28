@@ -63,77 +63,77 @@ INSERT INTO public.track ("name","time")
 	--Заполнение таблиц связей
 -- Жанр-Исполнитель
 INSERT INTO public.gerne_executor (id_executor,id_gerne)
-	VALUES (1,11);
+	VALUES (6,4);
 INSERT INTO public.gerne_executor (id_executor,id_gerne)
-	VALUES (2,12);
+	VALUES (5,5);
 INSERT INTO public.gerne_executor (id_executor,id_gerne)
-	VALUES (3,13);
+	VALUES (4,4);
 INSERT INTO public.gerne_executor (id_executor,id_gerne)
-	VALUES (4,14);
+	VALUES (3,3);
 INSERT INTO public.gerne_executor (id_executor,id_gerne)
-	VALUES (5,15);
+	VALUES (2,2);
 INSERT INTO public.gerne_executor (id_executor,id_gerne)
-	VALUES (6,14);
+	VALUES (1,1);
 
 --Плейлисты-треки
 INSERT INTO public.track_list (id_track,id_playlist)
-	VALUES (15,3);
+	VALUES (2,3);
 INSERT INTO public.track_list (id_track,id_playlist)
-	VALUES (16,3);
+	VALUES (3,3);
 INSERT INTO public.track_list (id_track,id_playlist)
-	VALUES (17,3);
+	VALUES (4,3);
 INSERT INTO public.track_list (id_track,id_playlist)
-	VALUES (18,3);
+	VALUES (5,3);
 INSERT INTO public.track_list (id_track,id_playlist)
-	VALUES (19,3);
+	VALUES (6,3);
 INSERT INTO public.track_list (id_track,id_playlist)
-	VALUES (20,3);
+	VALUES (7,3);
 INSERT INTO public.track_list (id_track,id_playlist)
-	VALUES (21,3);
+	VALUES (1,1);
 INSERT INTO public.track_list (id_track,id_playlist)
-	VALUES (16,1);
+	VALUES (5,2);
 INSERT INTO public.track_list (id_track,id_playlist)
-	VALUES (20,1);
+	VALUES (6,5);
 INSERT INTO public.track_list (id_track,id_playlist)
-	VALUES (19,2);
+	VALUES (4,5);
 INSERT INTO public.track_list (id_track,id_playlist)
-	VALUES (19,4);
+	VALUES (5,4);
 INSERT INTO public.track_list (id_track,id_playlist)
-	VALUES (18,5);
+	VALUES (2,1);
 INSERT INTO public.track_list (id_track,id_playlist)
-	VALUES (20,5);
+	VALUES (1,3);
 INSERT INTO public.track_list (id_track,id_playlist)
-	VALUES (17,2);
+	VALUES (3,2);
 
 --Альбом-Исполнитель
 INSERT INTO public.album_executor (id_executor,id_album)
-	VALUES (16,15);
+	VALUES (1,1);
 INSERT INTO public.album_executor (id_executor,id_album)
-	VALUES (17,17);
+	VALUES (2,2);
 INSERT INTO public.album_executor (id_executor,id_album)
-	VALUES (18,18);
+	VALUES (3,3);
 INSERT INTO public.album_executor (id_executor,id_album)
-	VALUES (19,19);
+	VALUES (4,4);
 INSERT INTO public.album_executor (id_executor,id_album)
-	VALUES (20,20);
+	VALUES (5,5);
 INSERT INTO public.album_executor (id_executor,id_album)
-	VALUES (21,21);
+	VALUES (6,6);
 
 --Альбом-Трек
 INSERT INTO public.album_track (id_album,id_track)
-	VALUES (15,15);
+	VALUES (1,1);
 INSERT INTO public.album_track (id_album,id_track)
-	VALUES (17,16);
+	VALUES (2,2);
 INSERT INTO public.album_track (id_album,id_track)
-	VALUES (18,17);
+	VALUES (3,3);
 INSERT INTO public.album_track (id_album,id_track)
-	VALUES (19,18);
+	VALUES (4,4);
 INSERT INTO public.album_track (id_album,id_track)
-	VALUES (20,19);
+	VALUES (5,5);
 INSERT INTO public.album_track (id_album,id_track)
-	VALUES (21,20);
+	VALUES (6,6);
 INSERT INTO public.album_track (id_album,id_track)
-	VALUES (18,21);
+	VALUES (3,7);
 
 --Обнаруженные ошибки
 UPDATE public.track -- изменение времени на корректное
