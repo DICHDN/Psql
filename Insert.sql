@@ -63,17 +63,17 @@ INSERT INTO public.track ("name","time")
 	--Заполнение таблиц связей
 -- Жанр-Исполнитель
 INSERT INTO public.gerne_executor (id_executor,id_gerne)
-	VALUES (16,11);
+	VALUES (1,11);
 INSERT INTO public.gerne_executor (id_executor,id_gerne)
-	VALUES (17,12);
+	VALUES (2,12);
 INSERT INTO public.gerne_executor (id_executor,id_gerne)
-	VALUES (18,13);
+	VALUES (3,13);
 INSERT INTO public.gerne_executor (id_executor,id_gerne)
-	VALUES (19,14);
+	VALUES (4,14);
 INSERT INTO public.gerne_executor (id_executor,id_gerne)
-	VALUES (20,15);
+	VALUES (5,15);
 INSERT INTO public.gerne_executor (id_executor,id_gerne)
-	VALUES (21,14);
+	VALUES (6,14);
 
 --Плейлисты-треки
 INSERT INTO public.track_list (id_track,id_playlist)
